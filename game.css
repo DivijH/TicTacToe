@@ -1,0 +1,132 @@
+h1 {
+	text-align: center;
+	color: red;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+h2 {
+	text-align: center;
+	color: black;
+	font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	height: 100%;
+	transition-duration: 0.8s;
+	transition-property: transform;
+}
+
+img:hover {
+	transform: rotate(360deg);
+}
+
+#grid {
+	margin: auto;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+td {
+	width: 10rem;
+	height: 10rem;
+}
+
+td:hover {
+	cursor: pointer;
+	background-color: rgb(225, 225, 225);
+}
+
+#one {
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top-left-radius: 12px;
+}
+
+#two {
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+}
+
+#three {
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	border-top-right-radius: 12px;
+}
+
+#four {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+}
+
+#five {
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	border-right: 5px solid black;
+}
+
+#six {
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+}
+
+#seven {
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	border-bottom-left-radius: 12px;
+}
+
+#eight {
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	border-right: 5px solid black;
+}
+
+#nine {
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	border-bottom-right-radius: 12px;
+}
+
+.endgame {
+	display: none;
+	width: 25rem;
+	height: 25rem;
+	background-color: rgba(105, 133, 63, 0.8);
+	border-radius: 6px;
+	color: white;
+	font-size: 1.5rem;
+	text-align: center;
+	line-height: 25rem;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	position: absolute;
+	left: 50%;
+	margin-left: -12.5rem;
+	top: 50%;
+	margin-top: -12.5rem;
+}
+
+button {
+	width: 8rem;
+	height: 5rem;
+	border-radius: 6px;
+	border: none;
+	background-color: darkblue;
+	color: white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+
+button:hover {
+	cursor: pointer;
+	transform: scale(1.1);
+	background-color: blue;
+}
